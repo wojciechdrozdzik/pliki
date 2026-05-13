@@ -1,0 +1,39 @@
+Instalujesz: Visual studio code
+Instalujesz: git-scm install windows
+Instalujesz: github desktop windows
+W terminalu:
+
+ssh-keygen -t ed25519 -C "wojciech.p.drozdzik@gmail.com"
+#number ed25519 jest dowolny
+
+cat ~/.ssh/id_ed25519.pub
+# wyświetli w konsoli wygenerowany klucz
+
+przejdź do przeglądarki -> konto github:
+- kliknij awatar
+- settings
+- add SSH &...
+- przycisk: add new SSH 
+- wklej wygenerowany klucz + jakis opis
+
+
+ssh -T git@github.com  -> yes
+
+restart visual studio
+git config --global user.name "Wojtek"
+git config --global user.email "wojciech.p.drozdzik@gmail.com"
+
+na stronie gitHub stwórz nowe repository np. postproc
+
+ w terminalu:
+ git clone git@github.com:wojciechdrozdzik/postproc.git .
+
+ git rm -r --cached
+
+ #mozesz stworzyć plik do ignorowania niektórych plików zeby nie wysyłac wszystkiego na serwer
+
+
+
+
+venv\Scripts\activate
+#aktywuje środowisko wirtualne - pojawi się na początk (venv)

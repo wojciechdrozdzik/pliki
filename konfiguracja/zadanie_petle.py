@@ -8,6 +8,12 @@ firmy["Kurs akcji dzisiaj"] = [ 16.71,25.64 ,57.11, 38.16, 99.14, 94.52, 91.11  
 firmy["Wzrost/Spadek"]=[None,None,None,None,None,None,None]
 firmy["Wartosci"]=[None,None,None,None,None,None,None]
 
+firmy["Nazwa firmy"].append("Polskie Browary")
+firmy["Kurs akcji wczoraj"].append(103.20)
+firmy["Kurs akcji dzisiaj"].append(101.73)
+firmy["Wzrost/Spadek"].append(None)
+firmy["Wartosci"].append(None)
+
 ile_firm = len(firmy["Nazwa firmy"])
 print(f"Ilość firm: {ile_firm}")
 
